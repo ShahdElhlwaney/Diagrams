@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="L6Pju1qswaKS0VO9mxzt">
-    <mxGraphModel>
+    <mxGraphModel dx="808" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R7FmmCf31sf28utEPdyT-5" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=#F2CC8F;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="260" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-6" value="Compilation" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="275" y="15" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-7" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=44;direction=south;notch=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="365" y="60" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-9" value="&lt;div&gt;Creation of global execution context &lt;br&gt;&lt;/div&gt;&lt;div&gt;(for top-level code)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="240" y="195" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=44;direction=south;notch=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="365" y="250" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-11" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-12" value="&lt;div&gt;Execution of top-level code&lt;/div&gt;&lt;div&gt;(inside global EC)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="210" y="385" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-14" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="170" y="550" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=44;direction=south;notch=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="365" y="440" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-16" value="Execution of functions and waiting for callbacks" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="200" y="575" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=0;dx=44;notch=0;arrowHead=34;rounded=1;direction=south;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="425" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=0;dx=41;arrowHead=29;direction=south;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="240" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-19" value="not inside a function" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="620" y="305" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-20" value="for ex, click event callback" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="410" y="700" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R7FmmCf31sf28utEPdyT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.998;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="R7FmmCf31sf28utEPdyT-14" target="R7FmmCf31sf28utEPdyT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
